@@ -1,0 +1,106 @@
+/* Define o layout geral do body */
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../img/download (2).jpg');
+    background-size: cover;
+    image-rendering: auto;
+}
+
+/* Centraliza o conteúdo principal */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+
+/* Configuração geral de imagens */
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Posição da imagem do Pokémon */
+#imgPokemon {
+    position: absolute;
+    top: 42%;
+    width: 12%;
+    height: 12%;
+}
+
+#imgPokemon img {
+    width: 100%;
+    position: absolute;
+    top: -60%;
+    right: 18px;
+}
+
+/* Campo de texto para busca */
+#input {
+    position: absolute;
+    top: 53%;
+    left: 43%;
+    font-size: 16px;
+    border-radius: 6px;
+    width: 12%;
+}
+
+/* Estilo dos dados */
+#nome, #inf, #inf2 {
+    position: absolute;
+    left: 42%;
+    font-size: 100%;
+}
+
+#nome {
+    top: 60%;
+    font-weight: bold;
+    text-align: center;
+}
+
+#inf {
+    top: 63%;
+    display: flex;
+    gap: 10px;
+}
+
+#inf2 {
+    top: 68%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Estilo dos botões */
+#bottom {
+    position: absolute;
+    top: 76%;
+    left: 45%;
+    display: flex;
+    gap: 15px;
+}
+
+#btnVoltar,
+#btnProximo {
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: #ae3c22;
+    color: white;
+}
+
+#btnVoltar:hover,
+#btnProximo:hover {
+    background-color: #c62805;
+}

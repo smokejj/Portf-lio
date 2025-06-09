@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  color: #c7c6c6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.container.paineis {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-items: center;
+  margin-top: 105px;
+  padding: 0 20px;
+}
+
+
+.menu-opcoes {
+  width: 100%;
+  background-color: #000000;
+  padding: 14px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.menu-opcoes ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 40px;
+}
+
+.menu-opcoes a {
+  color: #f1f5f9;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.menu-opcoes a:hover {
+  color: #22d3ee;
+}
+
+a {
+  margin-left: 5px;
+}
+
+.painel:hover {
+  transform: translateX(-5px);
+}
+
+.painel {
+  background-color: #1c1c1e;
+  padding: 20px;
+  border-radius: 12px;
+  width: 290px;
+  height: 350px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+ 
+}
+
+.painel img {
+  width: 250px;
+  height: 200px;
+  border-radius: 8px;
+  margin-top: 7px;
+}
+
+.painelViz img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.painel p {
+  color: white;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+footer {
+  background-color: 00000;
+  padding: 20px 0;
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.3);
+}
+
+footer .social {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+footer .social li a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+footer .social li a:hover {
+  color: #a3a3ff;
+}
+
+.container.paineis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 105px;
+  cursor: pointer;
+}
+
+.painelGrito {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.painelViz {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+
+.painelCalculadora {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  max-width: 27%;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.painelPoke {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  max-width: 27%;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.painelNey {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  max-width: 27%;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+
+.painelGrito:hover {
+  transform: translateY(-5px);
+}
+
+.painelPoke:hover {
+  transform: translateY(-5px);
+}
+
+.painelCalculadora:hover {
+  transform: translateY(-5px);
+}
+
+.painelViz:hover {
+  transform: translateY(-5px);
+}
+
+.painelNey:hover {
+  transform: translateY(-5px);
+}
+
+.painelGrito h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+}
+
+.painelViz h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+}
+
+.painelCalculadora h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+}
+
+
+.painelNey h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+}
+
+.painelPoke h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+}
+
+.painelViz h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+}
+
+.painelGrito ol {
+  list-style: none;
+}
+
+.painelViz ol {
+  list-style: none;
+}
+
+.painelNey ol {
+  list-style: none;
+}
+
+.painelGrito a {
+  color: #e1eaea;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.painelCalculadora a {
+  color: #e1eaea;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+.painelPoke a {
+  color: #e1eaea;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+.painelViz a {
+  color: #e1eaea;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.painelNey a {
+  color: #e1eaea;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.painelGrito a:hover {
+  text-decoration: underline;
+}
+
+
+.painelPoke a:hover {
+  text-decoration: underline;
+}
+
+.painelViz a:hover {
+  text-decoration: underline;
+}
+
+.painelNey a:hover {
+  text-decoration: underline;
+}
+
+.imgGrito {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid #00ffff33;
+}
+
+.imgCalculadora {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid #00ffff33;
+}
+
+.imgPoke {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;  
+  border: 2px solid #00ffff33;
+}
+
+.imgViz  {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;  
+  border: 2px solid #00ffff33;
+}
+
+.imgNey  {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;  
+  border: 2px solid #00ffff33;
+}
+
+
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #cccccc;
+}

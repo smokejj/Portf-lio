@@ -1,0 +1,76 @@
+<!-- Estrutura básica do HTML -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos principais e responsivo -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+    <title>Pokemon</title>
+</head>
+
+<body>
+    <main>
+        <!-- Imagem da Pokédex -->
+        <figure>
+            <div id="container">
+                <img src="./img/pekedex.png" alt="pokedex">
+            </div>
+        </figure>
+
+        <!-- Imagem do Pokémon atual -->
+        <figure id="imgPokemon">
+            <img id="imgPoke" src="" alt="imagem do pokemon">
+        </figure>
+
+        <!-- Campo de busca -->
+        <form action="" id="form">
+            <input id="input" type="text">
+        </form>
+
+        <!-- Nome e ID do Pokémon -->
+        <div id="nome">
+            <span id="idPokemon">ID</span>
+            <span id="nomePokemon">Pokemon</span>
+        </div>
+
+        <!-- Tipos do Pokémon -->
+        <div id="inf">
+            <span>
+                <span><img id="imgTipo1" src="" alt="imgType1" width="24"></span> 
+                Tipo1: <span id="tipo1">---</span>
+            </span>
+            <span id="boxTipo2">
+                <span><img id="imgTipo2" src="" alt="imgType2" width="24"></span> 
+                Tipo2: <span id="tipo2">---</span>
+            </span>
+        </div>
+        
+        <!-- Habilidade, peso e altura -->
+        <div id="inf2">
+            <div>Habilidade: <span id="habilidade">---</span></div>
+            <div>Peso: <span id="peso">---</span></div>
+            <div>Altura: <span id="altura">---</span></div>
+        </div>
+
+        <!-- Botões de navegação -->
+        <div id="bottom">
+            <button id="btnVoltar">Voltar</button>
+            <button id="btnProximo">Proximo</button>
+        </div>  
+        
+        <!--Audio de fundo que toca a musica-->
+        <audio autoplay loop hidden>
+            <source src="./musicaFundo/fundo.mp3" type="audio/mpeg">
+          </audio>
+          
+      
+    </main>
+
+    <!-- Script principal -->
+    <script src="script.js"></script>
+</body>
+</html>

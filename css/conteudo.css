@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  color: #c7c6c6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.menu-opcoes {
+  width: 100%;
+  background-color: #000000;
+  padding: 14px 0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.menu-opcoes ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 40px;
+}
+
+.menu-opcoes a {
+  color: #f1f5f9;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.menu-opcoes a:hover {
+  color: #22d3ee;
+}
+
+.paineis {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.painel {
+  width: 220px;
+  height: 260px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 105px;
+  background-color: #171616;
+}
+
+.painel:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.painel h2 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.imgAula {
+  max-width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.imgAula {
+  max-width: 100%;
+  max-height: 120px;
+  object-fit: contain;
+}
+
+.imgAula3 {
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.imgAula5 {
+  width: 300px;
+  height: 250px;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color: 00000;
+  padding: 20px 0;
+  margin-top: 125px;
+  margin-left: 10px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.3);
+}
+
+footer .social {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+  
+}
+
+footer .social li a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+footer .social li a:hover {
+  color: #a3a3ff;
+}
+
+#inputlupa{
+  margin-left: 42%;
+  border-radius: 5px;
+  font-size: 20px;
+}

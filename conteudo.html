@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/conteudo.css" />
+    <title>Conteudo</title>
+
+    <!-- particles.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <style>
+        /* Fundo de partículas */
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+    <header class="container">
+        <nav class="menu-opcoes">
+            <ul>
+                <li><a href="index.html">Contato</a></li>
+                <li><a href="conteudo.html">Conteúdo</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="destaques">
+            <div class="container paineis">
+                <div class="post">
+                </div>
+                <div class="painel">
+                    <h2>Exercício 1</h2>
+                    <a href="./Aula 3/Exercicio 1/fonte.html">
+                        <figure>
+                            <img src="./imgExer/exer3.png" class="imgAula" alt="Exercicio 1" />
+                        </figure>
+                    </a>
+                </div>
+
+
+                <div class="painel">
+                    <h2>Exercício 2</h2>
+                    <a href="./Aula 5/semantico/index.html">
+                        <figure>
+                            <img src="./imgExer/exer5.png" class="imgAula" alt="Exercicio 2" />
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="social">
+            <li>
+                <a href="https://www.linkedin.com/in/jeferson-carvalho-da-silva-61a655305/">Linkedin</a>
+            </li>
+            <li><a href="https://github.com/smokejj">Github</a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            particles: {
+                number: {
+                    value: 80,
+                    density: {
+                        enable: true,
+                        value_area: 800,
+                    },
+                },
+                color: {
+                    value: "#ffffff",
+                },
+                shape: {
+                    type: "circle",
+                },
+                opacity: {
+                    value: 0.3,
+                },
+                size: {
+                    value: 3,
+                    random: true,
+                },
+                move: {
+                    enable: true,
+                    speed: 2,
+                    direction: "none",
+                    out_mode: "out",
+                },
+            },
+            interactivity: {
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: "repulse",
+                    },
+                },
+            },
+            retina_detect: true,
+        });
+    </script>
+</body>
+
+</html>
