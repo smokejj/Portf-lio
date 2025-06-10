@@ -80,6 +80,11 @@ a {
   height: 100%;
 }
 
+.painelPascoa img{
+  width: 100%;
+  height: 100%;
+}
+
 
 .painel p {
   color: white;
@@ -167,7 +172,7 @@ footer .social li a:hover {
   transition: transform 0.3s ease;
 }
 
-.painelNey {
+.painelPascoa {
   background: rgba(255, 255, 255, 0.05);
   padding: 20px;
   border-radius: 16px;
@@ -175,11 +180,6 @@ footer .social li a:hover {
   max-width: 27%;
   width: 100%;
   transition: transform 0.3s ease;
-}
-
-
-.painelGrito:hover {
-  transform: translateY(-5px);
 }
 
 .painelPoke:hover {
@@ -194,15 +194,9 @@ footer .social li a:hover {
   transform: translateY(-5px);
 }
 
-.painelNey:hover {
-  transform: translateY(-5px);
-}
 
-.painelGrito h3 {
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-  text-align: center;
-  color: white;
+.painelPascoa:hover {
+  transform: translateY(-5px);
 }
 
 .painelViz h3 {
@@ -220,13 +214,6 @@ footer .social li a:hover {
 }
 
 
-.painelNey h3 {
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-  text-align: center;
-  color: white;
-}
-
 .painelPoke h3 {
   font-size: 1.5rem;
   margin-bottom: 15px;
@@ -241,6 +228,14 @@ footer .social li a:hover {
   color: white;
 }
 
+
+.painelPascoa h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+}
+
 .painelGrito ol {
   list-style: none;
 }
@@ -249,18 +244,10 @@ footer .social li a:hover {
   list-style: none;
 }
 
-.painelNey ol {
+.painelPascoa ol {
   list-style: none;
 }
 
-.painelGrito a {
-  color: #e1eaea;
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 1.2rem;
-  display: block;
-  margin-bottom: 10px;
-}
 
 .painelCalculadora a {
   color: #e1eaea;
@@ -291,7 +278,7 @@ footer .social li a:hover {
   margin-bottom: 10px;
 }
 
-.painelNey a {
+.painelPascoa a {
   color: #e1eaea;
   font-weight: bold;
   text-decoration: none;
@@ -313,15 +300,8 @@ footer .social li a:hover {
   text-decoration: underline;
 }
 
-.painelNey a:hover {
+.painelPascoa a:hover {
   text-decoration: underline;
-}
-
-.imgGrito {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  border: 2px solid #00ffff33;
 }
 
 .imgCalculadora {
@@ -345,13 +325,12 @@ footer .social li a:hover {
   border: 2px solid #00ffff33;
 }
 
-.imgNey  {
+.imgPascoa  {
   width: 100%;
   height: auto;
   border-radius: 12px;  
   border: 2px solid #00ffff33;
 }
-
 
 figure {
   margin: 0;
