@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container.paineis {
+        margin-top: 0;
+    }
+}

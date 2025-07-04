@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+html,
 body {
   background: #000000;
   color: #c7c6c6;
@@ -14,10 +15,9 @@ body {
 .container.paineis {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 30px;  
   justify-items: center;
-  margin-top: 105px;
-  padding: 0 20px;
+  padding: 20px;
 }
 
 
@@ -65,7 +65,6 @@ a {
   text-align: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease;
- 
 }
 
 .painel img {
